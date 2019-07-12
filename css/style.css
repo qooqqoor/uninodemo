@@ -643,7 +643,7 @@ h3.agileits-title,h2.agileits-title{
 /*-- //about-page --*/
 /* title-ul-li */
 .title{
-    right:35vw;
+    right:40vw;
 }
 @media (min-width:768px){
 .title-ul-li:hover{
@@ -752,7 +752,9 @@ hr{
 }
 a.w3effct-agile.w3effct-agile-mdl {
     margin: 2em 0;
+
 }
+
 a.w3effct-agile { 
     position: relative;
     overflow: hidden; 
@@ -764,6 +766,7 @@ a.w3effct-agile {
     -webkit-backface-visibility: hidden;
 	border: 6px double #17b9ea;
 } 
+
 .w3gallery-grids img.img-responsive  {
     -webkit-transform: scale(1.3);
 	-moz-transform: scale(1.3);
@@ -990,12 +993,13 @@ a.w3effct-agile:hover .agile-figcap{
 .agileits-tags,.agile_cat_grid {
     margin-top: 3em;
 }
+
 .wthree_recent ul,.agileits-tags ul,.agile_cat_grid ul{
     padding:1.5em 0 0;
 }
 .wthree_recent ul li{
     list-style-type: none;
-    font-size: 1em;
+    font-size: 1.4em;
     color: #999;
     padding: 1em 0;
     border-bottom: 1px dashed #ccc;
@@ -1011,6 +1015,11 @@ a.w3effct-agile:hover .agile-figcap{
 .wthree_recent ul li a:hover{
     color:#212121;
 }
+.satitng ul li:hover a{
+    color:#17b9ea;
+}
+
+
 .wthree_recent ul li span {
    
     font-size: 13px;
@@ -1582,9 +1591,15 @@ h2.typoh2{
 }
 
 @media (max-width: 991px){
-.title{
+  .title{
     right:0.5rem;
-}
+  }
+  .satitng{
+        text-align: center;
+  }
+  .satitnmg{
+    text-align: center;
+  }
 }
 
 @media (max-width:768px){
@@ -1594,6 +1609,7 @@ h2.typoh2{
 	.grid_3 {
 		margin-bottom: 0em;
 	}
+
 
 }
 
@@ -1821,7 +1837,7 @@ h3.agileits-title, h2.agileits-title {
     font-size: 1.3em; 
 }
 .banner-w3text #vertical-ticker li, .banner-w3text h2 { 
-    font-size: 4em; 
+    font-size: 3.5em; 
 }
 .w3ls-bnr-icons.social-icon {
     margin-top: 2em;
@@ -2003,7 +2019,7 @@ ul.nav.navbar {
     padding: 1.3em 0 0.8em; 
 }
 .banner-w3text #vertical-ticker li{
-    font-size: 3.5em;
+    font-size: 2.5em;
 }
 .banner-w3text #vertical-ticker {
     height: 66px !important; 
@@ -2341,7 +2357,7 @@ button.navbar-toggle {
     margin: 1.2em 0; 
 }
 .banner-w3text #vertical-ticker li {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 .social-icon a {
     font-size: 0.9em; 
@@ -2421,6 +2437,7 @@ button.navbar-toggle {
 }
 a.w3effct-agile.w3effct-agile-mdl{
     margin: 1em 0;
+
 }
 .agile-figcap h4 { 
     margin: 2em 0 0;
